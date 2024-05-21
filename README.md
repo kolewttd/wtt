@@ -23,5 +23,5 @@ export GOOGLE_API_KEY="your-api-key-here"
 ```
 3. Run
 ```sh
-wtt.py
+python wtt.py
 ```
