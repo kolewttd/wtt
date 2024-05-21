@@ -12,7 +12,7 @@ Both prompt and textual response get appended to a file.
 # Installation and Usage 
 1. Download the file or clone the repository 
 ```sh
-git clone https://github.com/kolewtt/wtt
+git clone https://github.com/kolewttd/wtt
 ```
 2. Install the API and export the API key
 ```sh
@@ -23,5 +23,5 @@ export GOOGLE_API_KEY="your-api-key-here"
 ```
 3. Run
 ```sh
-wtt.py
+python wtt.py
 ```
