@@ -9,13 +9,18 @@ setup(
     ],
     include_package_data=True,
     description='A description of your wtt module',
-    author='kolewtt',
-    author_email='kolewtt@proton.me',
-    url='https://github.com/kolewttd/wtt',  # Update with your repo URL
+    author='Your Name',
+    author_email='your.email@example.com',
+    url='https://github.com/yourusername/wtt',  # Update with your repo URL
+    license='GPLv3',  # Specify the license
     classifiers=[
         'Programming Language :: Python :: 3',
-        'License :: OSI Approved :: MIT License',
+        'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
         'Operating System :: OS Independent',
     ],
+    entry_points={
+        'console_scripts': [
+            'wtt=wtt.wtt:main',  # 'wtt' is the command, 'wtt.wtt:main' points to the main function
+        ],
+    },
 )
-
