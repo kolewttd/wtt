@@ -1,4 +1,4 @@
-# WALK THE TALK
+### WALK THE TALK
 
 wtt.py
 
@@ -25,3 +25,16 @@ export GOOGLE_API_KEY="your-api-key-here"
 ```sh
 python wtt.py
 ```
+## Testing and Development (Experiments)
+
+### On Licence
+I am not informed nor a lawyer.
+TODO
+
+# The APIs for large language models should be in the public domain
+
+
+
+
+
+
