@@ -1,6 +1,7 @@
 import sys
 import os
 import google.generativeai as genai
+import datetime
 
 def arguments_to_text(*args) -> str:
     """
@@ -66,10 +67,10 @@ def wtt(*args) -> None:
 
     # Write the prompt and response to output.txt
     with open("output.txt", "a") as file:
+        now = str(datetime.datetime.now())
+        file.write(now)
         file.write(prompt)
         file.write(response.text)
-
-    print("Text has been written to output.txt")
 
 if __name__ == "__main__":
     """
