@@ -20,7 +20,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'wtt=wtt.wtt:main',  # 'wtt' is the command, 'wtt.wtt:main' points to the main function
+            'wtt=wtt.wtt:wtt',  # 'wtt' is the command, 'wtt.wtt:wtt' points to the wtt function
         ],
     },
 )
