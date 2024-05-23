@@ -1,4 +1,4 @@
-#!/home/kolewtt/wtt/venv/bin/python
+#!/data/data/com.termux/files/home/wtt/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
