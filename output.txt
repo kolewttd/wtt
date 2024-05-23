@@ -1,0 +1,44 @@
+Solve
+Failed to build maturin                     ERROR: Could not build wheels for maturin, which is required to install pyproject.toml-based projecta
+To fix this issue, you can try the following:
+
+1. Make sure you have the latest version of `maturin` installed. You can do this by running the following command:
+
+```
+pip install --upgrade maturin
+```
+
+2. Try running the following command to build the maturin wheels:
+
+```
+maturin build
+```
+
+If this does not work, you can try the following:
+
+1. Uninstall `maturin` and then reinstall it:
+
+```
+pip uninstall maturin
+pip install maturin
+```
+
+2. Try running the following command to build the maturin wheels:
+
+```
+maturin build
+```
+
+3. If you are still having problems, you can try creating a new virtual environment and installing `maturin` in it. You can do this by running the following commands:
+
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install maturin
+```
+
+Once you have `maturin` installed in the virtual environment, you can try running the following command to build the maturin wheels:
+
+```
+maturin build
+```
