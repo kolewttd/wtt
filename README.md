@@ -18,7 +18,7 @@ git clone https://github.com/kolewttd/wtt
 ```sh
 python -m venv venv
 source venv/bin/activate
-pip install -q -U google-generativeai
+pip install google-generativeai
 export GOOGLE_API_KEY="your-api-key-here"
 ```
 3. Run
@@ -26,6 +26,10 @@ export GOOGLE_API_KEY="your-api-key-here"
 python wtt.py
 ```
 ## Testing and Development (Experiments)
+
+It should run everywhere. 
+### Linux
+### Termux
 
 ### On Licence
 I am not informed nor a lawyer.
