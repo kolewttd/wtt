@@ -1,4 +1,3 @@
-```rust
 use std::{fs, io::Write};
 use regex::Regex;
 
@@ -33,4 +32,3 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     Ok(())
 }
-```
