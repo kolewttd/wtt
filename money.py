@@ -1,31 +1,29 @@
-```python
-import datetime
+class Bank:
+    value = 0
 
-class Time:
-  def __init__(self):
-    self.current_time = datetime.datetime.now()
+class Person:
+    value = 0
 
-  def get_current_time(self):
-    return self.current_time
+Setofbanks = set()
+Setofpeople = set()
+Universe = set()
 
-  def set_current_time(self, new_time):
-    self.current_time = new_time
+one = Person()
+b = Bank
 
-  def get_time_interval(self, start_time, end_time):
-    interval = end_time - start_time
-    return interval
+print(one.value)
+print(b.value)
 
-  def print_time_interval(self, interval):
-    print(interval)
 
-def main():
-  time = Time()
-  start_time = time.get_current_time()
-  # Do something
-  end_time = time.get_current_time()
-  interval = time.get_time_interval(start_time, end_time)
-  time.print_time_interval(interval)
+# Convention:
+# one, two, three, ... are people,
+# a, b, c, d, ... are banks.
 
-if __name__ == "__main__":
-  main()
-```
+# Initialisation
+# n = 0, where n is the number of persons or 
+# banks.
+
+n = 0
+print(n)
+
+
