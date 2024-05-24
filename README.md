@@ -25,6 +25,11 @@ export GOOGLE_API_KEY="your-api-key-here"
 ```sh
 python wtt.py
 ```
+Bash command wtt is located at venv/bin and 
+if your contains it, you can use it:
+```bash
+wtt <prompt|file>
+```
 ## Testing and Development (Experiments)
 
 It should run everywhere (Linux). 
@@ -32,8 +37,8 @@ It should run everywhere (Linux).
 ### Termux
 Building wheel for grpcio ... (Stuck)
 
-
 Solve
+
 Failed to build maturin                     ERROR: Could not build wheels for maturin, which is required to install pyproject.toml-based projecta
 To fix this issue, you can try the following:
 
@@ -1072,3 +1077,63 @@ def main():
 if __name__ == "__main__":
   main()
 ```
+**Bug Bounty Terms and Conditions**
+
+**1. Scope**
+
+This Bug Bounty Program ("Program") applies to all reported vulnerabilities found in eligible products and services ("Products") maintained by [Organization Name] ("Company").
+
+**2. Eligibility**
+
+Individuals or organizations who discover vulnerabilities in Company Products are eligible to participate in the Program. Exclusions apply to:
+
+* Employees, contractors, or affiliates of the Company
+* Individuals who discovered vulnerabilities through illegal or unethical means
+
+**3. Vulnerability Reporting**
+
+Vulnerabilities should be reported through the designated reporting channel at [Reporting Channel URL]. Reports must include:
+
+* A detailed description of the vulnerability
+* Steps to reproduce the vulnerability
+* Proof of concept (e.g., screenshots, logs)
+* Your contact information
+
+**4. Rewards**
+
+The Company will reward researchers for reporting eligible vulnerabilities based on their severity and impact. Reward amounts will be determined at the sole discretion of the Company.
+
+**5. Vulnerability Assessment**
+
+The Company will review and assess reported vulnerabilities within a reasonable timeframe. The Company reserves the right to prioritize and investigate vulnerabilities based on severity and potential impact.
+
+**6. Fix and Disclosure**
+
+The Company will work with researchers to develop and implement fixes for eligible vulnerabilities. The Company will make a reasonable effort to disclose vulnerabilities responsibly and avoid unnecessary public exposure.
+
+**7. Intellectual Property**
+
+Researchers agree to assign all intellectual property rights related to their reported vulnerabilities to the Company upon reporting. The Company will only use these vulnerabilities for security and research purposes.
+
+**8. Ethical Reporting**
+
+Researchers must act ethically and responsibly when reporting vulnerabilities. This includes:
+
+* Not exploiting vulnerabilities for personal gain
+* Maintaining confidentiality until the vulnerability is fixed
+* Avoiding any actions that may damage the Company's reputation or business
+
+**9. Legal Compliance**
+
+Researchers must comply with all applicable laws and regulations while participating in the Program.
+
+**10. Termination**
+
+The Company reserves the right to terminate the Program or modify these Terms and Conditions at any time without notice.
+
+**11. Additional Terms**
+
+* The Company's decision on the eligibility, severity, and bounty amount for reported vulnerabilities is final.
+* The Company may request additional information from researchers regarding reported vulnerabilities.
+* The Company may blacklist researchers who engage in unethical or illegal activities.
+* The Company is not responsible for any damages or losses incurred by researchers as a result of participating in the Program.
