@@ -34,6 +34,17 @@ Note: wtt command must be called from the wtt directory.
 
 ## Testing and Development (Experiments)
 
+step1 find the key
+
+if you have a key, then
+change
+commit
+push
+
+done
+
+
+
 #Junk
 
 Create the website for such a program.
