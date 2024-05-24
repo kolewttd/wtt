@@ -1,6 +1,8 @@
-### WALK THE TALK
+### whatsthetalk.eu
 
-wtt.py
+Research in API security
+
+Powered by wtt
 
 wtt is a simple command line "ChatGPT". It is a wrapper around google.generativeai that accepts variable number of string and/or file path arguments.
 
@@ -27,7 +29,15 @@ wtt hello
 ```
 
 Note: wtt command must be called from the wtt directory.
+
 ## Testing and Development (Experiments)
+
+#Junk
+
+Create the website for such a program.
+
+The rest of this file is junk.
+
 **English Idiom:** Walk the talk
 
 **Meaning:** To act in accordance with one's words or beliefs; to put one's money where one's mouth is.
