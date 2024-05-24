@@ -40,3 +40,7 @@ What are some simple command line options to enumerate hosts on the LAN?
 * **fping -g 192.168.1.0/24** sends ICMP echo requests to all hosts in the specified subnet, listing all hosts that respond.
 * **ettercap -i eth0 -T -Q** starts ettercap in sniffing mode, listing all hosts that are communicating on the LAN.
 * **dsniff -i eth0** captures all network traffic on the specified interface, listing all hosts that are communicating on the LAN.
+
+```sh
+ettercap -i <network_interface> -T
+```
