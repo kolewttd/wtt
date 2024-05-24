@@ -2,6 +2,8 @@
 
 Research in API security
 
+If you want to lead, just find the API key.
+
 Powered by wtt
 
 wtt is a simple command line "ChatGPT". It is a wrapper around google.generativeai that accepts variable number of string and/or file path arguments.
