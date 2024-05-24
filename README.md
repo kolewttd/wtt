@@ -1137,3 +1137,20 @@ The Company reserves the right to terminate the Program or modify these Terms an
 * The Company may request additional information from researchers regarding reported vulnerabilities.
 * The Company may blacklist researchers who engage in unethical or illegal activities.
 * The Company is not responsible for any damages or losses incurred by researchers as a result of participating in the Program.
+**English Idiom:** Walk the talk
+
+**Meaning:** To act in accordance with one's words or beliefs; to put one's money where one's mouth is.
+
+**Translations:**
+
+* **French:** Prêcher par l'exemple
+* **German:** Taten sprechen lassen
+* **Spanish:** Predicar con el ejemplo
+* **Italian:** Fare quello che si dice
+* **Portuguese:** Praticar o que se prega
+* **Russian:** Делать то, что говоришь
+* **Chinese:** 言行一致
+* **Japanese:** 行動が伴う
+* **Korean:** 말과 행동이 일치하다
+* **Arabic:** الفعل يتحدث
+* **Hindi:** जो कहता है, वही करता है
