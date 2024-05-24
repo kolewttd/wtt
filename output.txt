@@ -1696,4 +1696,38 @@ If you are concerned about the safety of the app on Google Play, you can downloa
 * You can use the `-p` parameter to specify a specific port to scan, such as `ettercap -i eth0 -T -p 80`.
 * You can use the `-v` parameter to increase the verbosity of ettercap's output.
 * You can use the `-w` parameter to write the results of the scan to a file, such as `ettercap -i eth0 -T -w hosts.txt`.hello
-Hello there! How can I assist you today?
+Hello there! How can I assist you today?Write a bash script that goes throgh the 192.168.178.1-31 and for each address try tu curl it.
+```bash
+#!/bin/bash
+
+# Loop through the IP addresses
+for ip in {1..31}; do
+
+  # Try to curl the IP address
+  curl -s -m 2 192.168.178.$ip
+
+  # If the curl command succeeds, print the IP address
+  if [ $? -eq 0 ]; then
+    echo "192.168.178.$ip is up"
+  fi
+done
+```Write a bash script that goes throgh the 192.168.178.1-31 and for each address try tu curl it.
+```bash
+#!/bin/bash
+
+# Define the IP address range
+ip_range="192.168.178.1-31"
+
+# Loop through the IP address range
+for ip in $(seq $ip_range); do
+  # Try to curl the IP address
+  curl -s http://$ip > /dev/null 2>&1
+
+  # Check if the curl request was successful
+  if [ $? -eq 0 ]; then
+    echo "IP address $ip is reachable."
+  else
+    echo "IP address $ip is not reachable."
+  fi
+done
+```

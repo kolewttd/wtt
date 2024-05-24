@@ -91,3 +91,22 @@ What are some simple command line options to enumerate hosts on the LAN?
 ```sh
 ettercap -i <network_interface> -T
 ```
+```bash
+#!/bin/bash
+
+# Define the IP address range
+ip_range="192.168.178.1-31"
+
+# Loop through the IP address range
+for ip in $(seq $ip_range); do
+  # Try to curl the IP address
+  curl -s http://$ip > /dev/null 2>&1
+
+  # Check if the curl request was successful
+  if [ $? -eq 0 ]; then
+    echo "IP address $ip is reachable."
+  else
+    echo "IP address $ip is not reachable."
+  fi
+done
+```
