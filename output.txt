@@ -1515,4 +1515,5 @@ The Company reserves the right to terminate the Program or modify these Terms an
 * The Company's decision on the eligibility, severity, and bounty amount for reported vulnerabilities is final.
 * The Company may request additional information from researchers regarding reported vulnerabilities.
 * The Company may blacklist researchers who engage in unethical or illegal activities.
-* The Company is not responsible for any damages or losses incurred by researchers as a result of participating in the Program.
+* The Company is not responsible for any damages or losses incurred by researchers as a result of participating in the Program.hello
+Hi there! How can I help you today?
