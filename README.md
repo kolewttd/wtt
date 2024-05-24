@@ -110,3 +110,20 @@ for ip in $(seq $ip_range); do
   fi
 done
 ```
+
+I have done something which invalidated the api key.
+Can you do the same for others and what are the 
+legal consequences if you do so? Did I do something 
+ilegal? What should be the punishment?
+
+I guess we have time, before the Microsoft realises that 
+the github key has also been leaked.
+
+What is the difference between those keys? I do not know.
+
+How long, until the youtube channel kolewtt disapears?
+How long, until kolewttd github account access token gets 
+invalidated?
+
+Those are the questions of interest to the security 
+community. I am here to just see what happens next.
