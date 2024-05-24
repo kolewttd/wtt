@@ -1,0 +1,5 @@
+**Incrementing Game:**
+
+* Initial value: **0**
+* Increment the current value by the specified number.
+* Write the new value (updated initial value) as the response.
