@@ -49,6 +49,7 @@ python -m venv venv
 source venv/bin/activate
 pip install google-generativeai
 export GOOGLE_API_KEY="your-api-key-here"
+export PATH=$PATH:~/wtt
 ```
 3. Run
 ```bash
