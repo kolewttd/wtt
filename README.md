@@ -81,10 +81,14 @@ What are the best minimal options or protocols to transfer plain text across the
 
 **Best Practices:**
 
-* **Secure connections:** Use TLS/SSL encryption when possible to protect data in transit.
-* **Framing:** Delimit plaintext data with simple markers or separators to indicate the start and end of each message.
-* **Error handling:** Implement error handling mechanisms to ensure data integrity and recover from transmission errors.
+* **Secure connections:** Use TLS/SSL encryption when needed to protect data in transit. Otherwise plain text can suffice. Failing to do so protects a particular attack surface, but it can also introduce a lot more attack surface, as well as limit the recovery, in return. Or it can just break the API for the people.
+
+* **Error handling:** Implement error handling mechanisms to ensure data integrity and recover from transmission errors. Do not implement it, if you do 
+not need it.
+
 * **Authentication:** Establish an authentication mechanism to verify the identities of the communicating parties, if necessary.
+
+The internet is just fine. We make it insecure.
 
 **Example Protocol Using Raw Sockets:**
 
@@ -104,6 +108,65 @@ sock.sendto(b'Hello World', ('localhost', 54321))
 data, addr = sock.recvfrom(1024)
 print(data.decode())
 ```
+
+We will need a few clients and servers to get us running, but the whole 
+problem is not technical. It has to do with the relation between 
+humans and APIs. Here technical means, I tell you what to implement and 
+you implement it, without question. That is the job of software developers
+these days. The problem here has to do more with politics and law.
+
+Law and politics are not written in stone. They change and they change fast.
+
+Let us start with The Law API. This API is clearly in public domain. It does 
+not need support for any encryption. It is a plain text.
+
+I would like to be able to grep or cat, at least with The Law API.
+Until I can do that, I consider it to be broken. Once that is possible, 
+that will not do anything, but make me a little bit more optimistic.
+
+If you can grep, then you can git.
+
+I am not informed on, why Laws are not traced under git?
+
+That is the first step. Put law under git. There is only one problem.
+
+Unless someone solves the Riemann hypothesis, we can hope, or assume, that
+little probable bad events will not happen.
+
+But what if someone solves the Riemann hypothesis? Will our tokens and 
+encryption break? If so, after how much time? What would it look like if 
+we break encryption? What would it look like, when we lose encryption.
+
+These are complicated questions and if you change a description just 
+a little, you could come up with very different arguments.
+
+But someone, somewhere will come with the solution. Will you have access to
+it? Will you have the right to access and change or influence in some other
+way? I believe in git. In other words, I believe that everyone should be 
+able to access, change and push The Law API. I consider that to be the 
+only way, in which the human rights can survive in Europe. 
+
+If you do not have an access to the LawAPI, the game is not fair. 
+
+
+Thanks to the unsolvability of the Riemann hypothesis, we have mostly 
+secure and private communications.
+
+
+It is possible to identify an individual through some API uniqely.
+
+
+
+
+
+
+
+
+
+Maybe I am afraid of war, cyber-crime, or cyber-violence, 
+
+
+
 What are some simple command line options to enumerate hosts on the LAN?
 * **arp -a** displays the Address Resolution Protocol (ARP) cache, which maps IP addresses to MAC addresses. This can be useful for finding hosts on the LAN that are not responding to ping requests.
 * **nmap -sn 192.168.1.0/24** performs a stealth scan of the specified subnet, listing all hosts that are online.
