@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# This script is a wrapper around the wtt.py file, which uses the Gemini-Pro
+# generative AI model to generate text based on a given prompt.
+# Usage: wtt <file_path_or_string> [<file_path_or_string> ...]
+
+# Check if wtt.py exists
+if [ ! -f wtt.py ]; then
+  echo "wtt.py not found. Please ensure it is in the same directory as this script."
+  exit 1
+fi
+
+# Check if the GOOGLE_API_KEY environment variable is set
+if [ -z "$GOOGLE_API_KEY" ]; then
+  echo "GOOGLE_API_KEY environment variable is not set. Please set it to your API key."
+  exit 1
+fi
+
+# Call wtt.py with the provided arguments
+python wtt.py "$@"
