@@ -179,7 +179,49 @@ person. Let B be the bank.
 Nothing else is given. 
 
 Experiment1
-What does it
+What does it mean for a person to issue a GET money
+request?
+
+Axiom1. If a person GETs money from the bank, it has to 
+PUT more money at some later time, within its lifetime.
+
+This API is broken and is of most importance. 
+
+Next API. I cannot think of one, that is more important, 
+other than the The Law API. Now
+things get more interesting and untractable.
+
+Money API is the most important unsolved question and it 
+depens on the Riemann hypothesis
+
+If you solve the Money API, you may go as the GOAT.
+
+The Law API is unsolvable.
+
+In this chapter you got introduced to the two most basic 
+and most important APIs. 
+
+Experiment2
+
+Write a game which implements moneyapi.
+Think about lawapi.
+
+All of these experiments have a goal of 
+collecting data. There is a lot of data.
+
+All has happened fast. The law is falling behind. It will
+catch up soon. 
+
+As you may know, many such laws are there and ready
+to be signed with some token or key.
+
+This may as well be the project to evaluate such laws, 
+at least for the European Union. In the case of the 
+European Union, the situation is a lot simpler. 
+The law is uniform across different member states.
+
+
+Axiom2. 
 
 * Description: A buffer overflow vulnerability in Microsoft Exchange Server allows attackers to execute arbitrary code remotely.
 * Impact: Remote code execution (RCE)
