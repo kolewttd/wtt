@@ -3093,4 +3093,106 @@ Hello there! How can I assist you today?No thanks in many languages
 * **Vietnamese:** Không, cảm ơn
 * **Welsh:** Nac ydw, diolch
 * **Xhosa:** Hayi, enkosi
-* **Yiddish:** ניין, דאַנק
+* **Yiddish:** ניין, דאַנקPrint Scope for the google's youtube bug bounty programs
+**YouTube Bug Bounty Programs**
+
+**In Scope**
+
+* Security vulnerabilities that could lead to:
+    * Unauthenticated access to user or creator accounts
+    * Unauthorized access to, modification of, or deletion of user or creator data
+    * Elevation of privileges (e.g., gaining access to higher-level account privileges)
+    * Denial of service (DoS) attacks that prevent users from accessing YouTube
+    * Cross-site scripting (XSS) vulnerabilities that could allow an attacker to execute arbitrary code in a user's browser
+    * Content scraping or unauthorized data extraction from YouTube
+* Vulnerabilities that can be triggered through the following attack vectors:
+    * Web application attacks (e.g., SQL injection, cross-site scripting)
+    * Network-based attacks (e.g., DDoS, man-in-the-middle)
+    * Client-side attacks (e.g., phishing, malicious content)
+* Vulnerabilities that affect all supported platforms and devices, including:
+    * YouTube website (youtube.com)
+    * YouTube mobile apps (iOS and Android)
+    * YouTube TV (web, mobile, and TV apps)
+    * YouTube Music (web, mobile, and desktop apps)
+
+**Out of Scope**
+
+* Vulnerabilities or issues related to:
+    * Unavailability, downtime, or performance issues
+    * Spam or abuse reports
+    * Copyright infringement or takedown requests
+    * Content or policy violations
+    * Functionality that is not security-related
+* Vulnerabilities that require physical access to a device or social engineering attacks
+* Vulnerabilities in third-party software or services that are used by YouTube but not owned or operated by Google
+* Attacks that require the exploitation of multiple vulnerabilities
+* Denial of service attacks that do not cause a significant disruption to YouTube services
+* Vulnerabilities that are publicly known or have been previously reported
+* Vulnerabilities that do not impact the security or integrity of user data or YouTube servicesPrint Scope for the google's youtube bug bounty programs
+**Scope**
+
+The YouTube Bug Bounty program covers vulnerabilities in YouTube's web application and official mobile applications. This includes:
+
+* The YouTube website (www.youtube.com)
+* The YouTube mobile apps for Android and iOS
+* The YouTube TV app for Android and iOS
+* The YouTube Gaming app for Android and iOS
+
+The program does not cover vulnerabilities in:
+
+* Third-party websites or applications that use the YouTube API
+* The YouTube Creator Studio
+* The YouTube Data API
+* The YouTube Analytics API
+* The YouTube Gaming API
+* The YouTube Live API
+* The YouTube Music API
+* The YouTube Premium API
+* The YouTube Kids app
+* The YouTube VR app
+* The YouTube Go app
+* The YouTube Music app for Android and iOS
+
+**Eligible Vulnerabilities**
+
+The YouTube Bug Bounty program rewards researchers for finding and reporting vulnerabilities that meet the following criteria:
+
+* The vulnerability must be a security vulnerability in one of the covered platforms.
+* The vulnerability must be new and previously unreported to Google.
+* The vulnerability must be reproducible and have a clear impact on the security of the platform.
+* The vulnerability must not be a denial-of-service (DoS) attack.
+* The vulnerability must not be a phishing attack.
+* The vulnerability must not be a social engineering attack.
+
+**Rewards**
+
+The YouTube Bug Bounty program rewards researchers based on the severity of the vulnerability reported. The minimum reward for a valid vulnerability is $1000. The maximum reward for a critical vulnerability is $31337.
+
+**How to Report a Vulnerability**
+
+To report a vulnerability, please submit a report through the Google Vulnerability Research Program (VRP). The VRP is a centralized platform for reporting vulnerabilities in Google products and services.
+
+When submitting a report, please include the following information:
+
+* A detailed description of the vulnerability
+* A proof-of-concept exploit or a link to a public exploit
+* The version of the platform that is affected by the vulnerability
+* The impact of the vulnerability on the security of the platform
+
+**Exclusions**
+
+The YouTube Bug Bounty program does not cover the following types of vulnerabilities:
+
+* Vulnerabilities in third-party software or hardware
+* Vulnerabilities that are publicly known or have been previously reported to Google
+* Vulnerabilities that are not reproducible
+* Vulnerabilities that have no clear impact on the security of the platform
+* Denial-of-service (DoS) attacks
+* Phishing attacks
+* Social engineering attacks
+
+**Additional Information**
+
+* The YouTube Bug Bounty program is a continuous program. There is no end date.
+* Google reserves the right to modify the terms of the program at any time.
+* Google is not liable for any damages caused by the use of the YouTube Bug Bounty program.
