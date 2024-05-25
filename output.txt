@@ -2944,4 +2944,153 @@ After editing your hosts file, you need to restart your web browser for the chan
 * If you make a mistake in editing your hosts file, it can prevent you from accessing certain websites. Make sure to back up the original file before making any changes.
 * Some ISPs and networks may block access to certain IP addresses.hello
 Hi there! How can I assist you today?hello
-Hello there! How can I assist you today?
+Hello there! How can I assist you today?No thanks in many languages
+* **Albanian:** Jo faleminderit
+* **Arabic:** La shukran
+* **Armenian:** Voch chshnorhakalutyun
+* **Basque:** Ezkerrik asko ez
+* **Belarusian:** Дзякуй, не
+* **Bengali:** ধন্যবাদ, কিন্তু না
+* **Bosnian:** Hvala, ali ne
+* **Bulgarian:** Благодаря, но не
+* **Catalan:** Gràcies, però no
+* **Chinese (Mandarin):** 不谢，谢谢
+* **Croatian:** Hvala, ali ne
+* **Czech:** Děkuji, ale ne
+* **Danish:** Tak, men nej tak
+* **Dutch:** Bedankt, maar nee
+* **English:** No thanks
+* **Estonian:** Aitäh, ei
+* **Finnish:** Kiitos, ei
+* **French:** Merci, mais non
+* **Galician:** Grazas, pero non
+* **Georgian:** მადლობა, მაგრამ არა
+* **German:** Danke, aber nein
+* **Greek:** Ευχαριστώ, αλλά όχι
+* **Gujarati:** આભાર, પરંતુ ના
+* **Hebrew:** תודה, אבל לא
+* **Hindi:** धन्यवाद, लेकिन नहीं
+* **Hungarian:** Köszönöm, de nem
+* **Icelandic:** Takk, en ekki
+* **Indonesian:** Terima kasih, tapi tidak
+* **Irish:** Go raibh maith agat, ach níl
+* **Italian:** Grazie, ma no
+* **Japanese:** どうもありがとう、でも結構です
+* **Korean:** 고맙습니다, 하지만 안 됩니다
+* **Latvian:** Paldies, bet nē
+* **Lithuanian:** Ačiū, bet ne
+* **Macedonian:** Благодарам, но не
+* **Malay:** Terima kasih, tetapi tidak
+* **Maltese:** Grazzi, imma le
+* **Marathi:** धन्यवाद, पण नको
+* **Mongolian:** Баярлалаа, гэхдээ үгүй
+* **Montenegrin:** Hvala, ali ne
+* **Norwegian:** Takk, men nei
+* **Odia:** ଧନ୍ୟବାଦ, ପણ ନା
+* **Persian:** متشکرم، اما نه
+* **Polish:** Dziękuję, ale nie
+* **Portuguese:** Obrigado, mas não
+* **Romanian:** Mulțumesc, dar nu
+* **Russian:** Спасибо, но нет
+* **Serbian:** Хвала, али не
+* **Slovak:** Ďakujem, ale nie
+* **Slovenian:** Hvala, ampak ne
+* **Spanish:** Gracias, pero no
+* **Swedish:** Tack, men nej
+* **Tamil:** நன்றி, ஆனால் வேண்டாம்
+* **Telugu:** ధన్యవాదాలు, కానీ వద్దు
+* **Thai:** ขอบคุณครับ/ค่ะ, แต่ไม่เป็นไร
+* **Turkish:** Teşekkürler, ama hayır
+* **Ukrainian:** Дякую, але ні
+* **Urdu:** شکریہ، لیکن نہیںNo thanks in many languages
+* **Afrikaans:** Nee dankie
+* **Albanian:** Jo faleminderit
+* **Amharic:** Ameseginalehu
+* **Arabic:** La shukran
+* **Armenian:** Voch che shnorhakalutyun
+* **Basque:** Ez, eskerrik asko
+* **Belarusian:** Не, дзякуй
+* **Bengali:** Na, dhanyobad
+* **Bosnian:** Ne, hvala
+* **Bulgarian:** Не, благодаря
+* **Burmese:** Ma phyu cha le mya
+* **Catalan:** No, gràcies
+* **Cebuano:** Dili, salamat
+* **Chichewa:** Ayi, zikomo
+* **Chinese (Mandarin):** 不,谢谢
+* **Croatian:** Ne, hvala
+* **Czech:** Ne, děkuji
+* **Danish:** Nej tak, tak
+* **Dutch:** Nee, dank je wel
+* **Esperanto:** Ne, dankon
+* **Estonian:** Ei, aitäh
+* **Filipino:** Hindi, salamat
+* **Finnish:** Ei kiitos
+* **French:** Non, merci
+* **Galician:** Non, grazas
+* **Georgian:** Ara, madloba
+* **German:** Nein, danke
+* **Greek:** Όχι, ευχαριστώ
+* **Gujarati:** ના, આભાર
+* **Haitian Creole:** Non, mèsi
+* **Hausa:** A'a, nagode
+* **Hebrew:** לא, תודה
+* **Hindi:** नहीं, धन्यवाद
+* **Hungarian:** Nem, köszönöm
+* **Icelandic:** Nei, takk
+* **Igbo:** Mba, daalu
+* **Indonesian:** Tidak, terima kasih
+* **Irish:** Níl aon gháth ort, go raibh maith agat
+* **Italian:** No, grazie
+* **Japanese:** いいえ、ありがとう
+* **Javanese:** Mboten, matur nuwun
+* **Kannada:** Illa, dhanyavadagalu
+* **Kazakh:** Жоқ, рақмет
+* **Khmer:** ទេ អរគុណ
+* **Korean:** 아니요, 감사합니다
+* **Kurdish:** Na, spas
+* **Kyrgyz:** Жок, рахмат
+* **Lao:** ບໍ່, ຂອບໃຈ
+* **Latin:** Non, gratias
+* **Latvian:** Nē, paldies
+* **Lithuanian:** Ne, ačiū
+* **Luxembourgish:** Nee, merci
+* **Macedonian:** Не, благодарам
+* **Malagasy:** Tsia, misaotra
+* **Malay:** Tidak, terima kasih
+* **Malayalam:** Ila, nanni
+* **Maltese:** Le, grazzi
+* **Maori:** Kaore, kia ora
+* **Marathi:** नाही, धन्यवाद
+* **Mongolian:** Тийм ээ, баярлалаа
+* **Montenegrin:** Ne, hvala
+* **Nepali:** होइन, धन्यवाद
+* **Norwegian:** Nei, takk
+* **Odia:** ନାହିଁ, ଧନ୍ୟବାଦ
+* **Pashto:** نه، مننه
+* **Persian:** نه، ممنونم
+* **Polish:** Nie, dziękuję
+* **Portuguese:** Não, obrigado
+* **Punjabi:** ਨਹੀਂ, ਧੰਨਵਾਦ
+* **Romanian:** Nu, mulţumesc
+* **Russian:** Нет, спасибо
+* **Serbian:** Не, хвала
+* **Slovak:** Nie, ďakujem
+* **Slovenian:** Ne, hvala
+* **Somali:** Maya, mahadsanid
+* **Spanish:** No, gracias
+* **Swahili:** Hapana, asante
+* **Swedish:** Nej, tack
+* **Tagalog:** Hindi, salamat
+* **Tajik:** На, ташаккур
+* **Tamil:** இல்லை, நன்றி
+* **Telugu:** లేదు, ధన్యవాదాలు
+* **Thai:** ไม่, ขอบคุณ
+* **Turkish:** Hayır, teşekkürler
+* **Ukrainian:** Ні, дякую
+* **Urdu:** نہیں، شکریہ
+* **Uzbek:** Yo'q, rahmat
+* **Vietnamese:** Không, cảm ơn
+* **Welsh:** Nac ydw, diolch
+* **Xhosa:** Hayi, enkosi
+* **Yiddish:** ניין, דאַנק
