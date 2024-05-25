@@ -3288,4 +3288,12 @@ func PrintIPHandler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "IP Address: %s", r.RemoteAddr)
 }
   
+```Print public ip to stdout in python
+```python  
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+s.connect(("8.8.8.8", 80))
+print(s.getsockname()[0])
+  
 ```

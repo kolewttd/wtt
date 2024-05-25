@@ -887,3 +887,11 @@ After editing your hosts file, you need to restart your web browser for the chan
 * Using an IP address directly is not recommended for everyday use. It is more prone to errors and can cause problems with websites that use subdomains or redirects.
 * If you make a mistake in editing your hosts file, it can prevent you from accessing certain websites. Make sure to back up the original file before making any changes.
 * Some ISPs and networks may block access to certain IP addresses.
+```python  
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+s.connect(("8.8.8.8", 80))
+print(s.getsockname()[0])
+  
+```
