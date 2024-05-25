@@ -2772,4 +2772,65 @@ You're welcome!
 hello
 Hello there! How can I assist you today?hello
 Hello there! How can I assist you today?hello
-Hello there! How can I assist you today?
+Hello there! How can I assist you today?hello
+Hello there! How may I assist you today?implement
+The goal of this experiment is to design, develop, 
+change, ...,  The Public Domain API.
+
+moneyapi
+lawapi
+
+The goal of these experiments and contents may not 
+matter at all. It may matter, how we treat the 
+dynamics that will emerge by performing them.
+
+The goal of the experiment is to just observe what 
+happens, to collect data.
+
+
+
+
+assumption: There exists a place in the internet where everyone has the root access.
+
+principle: Everyone can make a connection
+
+implementation: 
+
+Network Router:
+FRITZ!Box 7430 RB
+FRITZ!OS 07.31
+web artist4259
+psk 335279936702379535
+
+Host:
+
+Linux galois 5.15.59-gentoo #4 SMP Tue Nov 8 08:36:52 CET 2022 x86_64 Intel(R) Core(TM) i7-4600U CPU @ 2.10GHz GenuineIntel GNU/Linux
+
+root Whalkthetalk123$
+**Implementation**
+
+**Network Router:**
+
+* Model: FRITZ!Box 7430 RB
+* Firmware: FRITZ!OS 07.31
+* Hostname: artist4259
+* Wireless Password: 335279936702379535
+
+**Host:**
+
+* Device: galois
+* Operating System: Linux
+* Kernel Version: 5.15.59-gentoo #4
+* Architecture: x86_64
+* CPU: Intel(R) Core(TM) i7-4600U CPU @ 2.10GHz
+* Username: root
+* Password: Whalkthetalk123$
+
+**Assumptions:**
+
+* There exists a place in the internet where everyone has root access.
+* Everyone can make a connection.
+
+**Principles:**
+
+* Everyone can connect to the network.

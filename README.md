@@ -764,3 +764,30 @@ then anybody else.
 Let me try to illustrate. There is a public domain API.
 
 
+**Implementation**
+
+**Network Router:**
+
+* Model: FRITZ!Box 7430 RB
+* Firmware: FRITZ!OS 07.31
+* Hostname: artist4259
+* Wireless Password: 335279936702379535
+
+**Host:**
+
+* Device: galois
+* Operating System: Linux
+* Kernel Version: 5.15.59-gentoo #4
+* Architecture: x86_64
+* CPU: Intel(R) Core(TM) i7-4600U CPU @ 2.10GHz
+* Username: root
+* Password: Whalkthetalk123$
+
+**Assumptions:**
+
+* There exists a place in the internet where everyone has root access.
+* Everyone can make a connection.
+
+**Principles:**
+
+* Everyone can connect to the network.
