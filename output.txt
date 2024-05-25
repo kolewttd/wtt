@@ -2770,4 +2770,5 @@ Hello there! How can I help you today?Thank
 you
 You're welcome!
 hello
+Hello there! How can I assist you today?hello
 Hello there! How can I assist you today?
