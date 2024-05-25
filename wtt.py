@@ -48,7 +48,7 @@ def wtt(*args) -> None:
     2. Configures the generative AI model with an API key from the environment variable.
     3. Generates content using the collected text as a prompt.
     4. Prints the generated content to the console.
-    5. Appends the prompt and the generated content to "output.txt".
+    5. Appends the prompt and the generated content to "output".
     """
     prompt = arguments_to_text(*args)
 
@@ -65,7 +65,7 @@ def wtt(*args) -> None:
     print(response.text)
 
     # Write the prompt and response to output.txt
-    with open("output.txt", "a") as file:
+    with open("output", "a") as file:
         file.write(prompt)
         file.write(response.text)
 

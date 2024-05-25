@@ -1,0 +1,21 @@
+// Sample cloud-functions demonstrates a Cloud Function that prints out the incoming data.
+package main
+
+import (
+	"fmt"
+	"log"
+	"net/http"
+)
+
+func main() {
+	log.Println("Starting Print IP Function")
+	http.HandleFunc("/", PrintIPHandler)
+	http.ListenAndServe(":8080", nil)
+}
+
+// PrintIPHandler is an http.HandlerFunc that prints out the remote IP address of the incoming request.
+func PrintIPHandler(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintf(w, "IP Address: %s", r.RemoteAddr)
+}
+  
+```
