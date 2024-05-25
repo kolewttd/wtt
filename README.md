@@ -632,3 +632,70 @@ IGNORE never fails
 
 Is it possible to implement it? What does that even mean?
 What will we learn?
+ Make executable works from anywhere in the file system by reference through PATH environment variable.
+Sure, here are the steps on how to make the wtt script executable from anywhere in the file system by referencing it through the PATH environment variable:
+
+**1. Install the wtt script**
+
+If you haven't already done so, install the wtt script by cloning the repository and installing the dependencies:
+
+```
+git clone https://github.com/kolewttd/wtt
+cd wtt
+python -m venv venv
+source venv/bin/activate
+pip install google-generativeai
+```
+
+**2. Add the wtt directory to your PATH environment variable**
+
+The PATH environment variable is a list of directories that the shell will search for executable files when you type a command. To add the wtt directory to your PATH, edit your `.bashrc` file and add the following line:
+
+```
+export PATH=$PATH:/path/to/wtt
+```
+
+**3. Make the wtt script executable**
+
+Make the wtt script executable by running the following command:
+
+```
+chmod +x wtt
+```
+
+**4. Test the wtt script**
+
+To test the wtt script, run the following command:
+
+```
+wtt
+```
+
+You should see the usage instructions for the wtt script.
+
+**5. Use the wtt script**
+
+You can now use the wtt script from anywhere in the file system by typing the following command:
+
+```
+wtt <file_path_or_string> [<file_path_or_string> ...]
+```
+
+For example, to generate content based on the text in the file `input.txt`, you would run the following command:
+
+```
+wtt input.txt
+```
+
+The generated content will be printed to the console and appended to the file `output.txt`.
+
+**Additional notes:**
+
+* You may need to restart your terminal session for the changes to the PATH environment variable to take effect.
+* If you are using a different shell, such as zsh, you will need to edit the appropriate configuration file (e.g., `.zshrc`).
+* You can also add the wtt directory to your PATH permanently by adding the line `export PATH=$PATH:/path/to/wtt` to your `.profile` file.
+
+I hope this helps! Let me know if you have any other questions.hello
+Hello there! How can I help you today?Thank
+you
+You're welcome!
