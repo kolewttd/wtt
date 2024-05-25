@@ -2834,4 +2834,17 @@ root Whalkthetalk123$
 **Principles:**
 
 * Everyone can connect to the network.hello
-Hello there! How can I assist you today?
+Hello there! How can I assist you today?hello
+Hi there! How can I assist you today?bash
+list
+all
+absolute
+pathnames
+from
+the
+current
+directory
+recursively
+find `pwd` -type f
+
+This command should accomplish the task.
