@@ -3296,4 +3296,54 @@ s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 s.connect(("8.8.8.8", 80))
 print(s.getsockname()[0])
   
-```
+```Print public ip, not lan private ip, to stdout in python
+```python
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+s.connect(("8.8.8.8", 80))
+print(s.getsockname()[0])
+```How to make a terminal connection to FritzBox router?
+**Prerequisites:**
+
+* A Windows, macOS, or Linux computer
+* A network connection to the FritzBox router
+* The FritzBox router's IP address (usually 192.168.178.1)
+* An SSH client (e.g., PuTTY for Windows, Terminal for macOS)
+
+**Instructions:**
+
+**1. Open an SSH Client:**
+
+* **Windows:** Install and launch PuTTY.
+* **macOS:** Open Terminal.
+
+**2. Connect to the FritzBox Router:**
+
+* **PuTTY:** Enter the FritzBox router's IP address (e.g., 192.168.178.1) in the "Host Name" field.
+* **Terminal:** Type `ssh root@192.168.178.1` (replace with your router's IP address).
+
+**3. Enter the Password:**
+
+* By default, the password for FritzBox routers is "admin".
+
+**4. Navigate the Terminal:**
+
+* Once connected, you will be in the root directory of the FritzBox router.
+* Use commands like `ls` (list files), `cd` (change directory), and `pwd` (print working directory) to navigate.
+
+**5. Perform Operations:**
+
+* You can now execute commands to configure and manage the router.
+* For example, to change the Wi-Fi password, type `uci set wireless.0.key=YOUR_NEW_PASSWORD` and press Enter.
+
+**6. Exit the Terminal:**
+
+* To disconnect from the router, type `exit`.
+
+**Tips:**
+
+* To save changes, type `uci commit` and press Enter.
+* If you lose connection during the session, simply reconnect using the same steps.
+* Be cautious when executing commands as they can impact the router's configuration.
+* Refer to the FritzBox documentation for specific commands and instructions related to your model.
