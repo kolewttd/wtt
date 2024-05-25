@@ -2833,4 +2833,5 @@ root Whalkthetalk123$
 
 **Principles:**
 
-* Everyone can connect to the network.
+* Everyone can connect to the network.hello
+Hello there! How can I assist you today?
