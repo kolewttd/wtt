@@ -902,3 +902,8 @@ s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 s.connect(("8.8.8.8", 80))
 print(s.getsockname()[0])
 ```
+```
+curl -X GET \
+  -H "Authorization: Bearer YOUR_ACCESS_TOKEN" \
+  "https://www.googleapis.com/drive/v2/files?pageSize=10"
+```

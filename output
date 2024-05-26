@@ -3615,4 +3615,28 @@ To use mitmproxy, follow these steps:
 
 **Documentation:**
 
-For more detailed documentation and usage instructions, refer to the [mitmproxy documentation](https://docs.mitmproxy.org/).
+For more detailed documentation and usage instructions, refer to the [mitmproxy documentation](https://docs.mitmproxy.org/).example
+request
+to
+the
+google
+api
+with
+curl
+```
+curl -X POST -H "Content-Type: application/json" -d '{
+  "query": "Who is the CEO of Alphabet?"
+}' "https://kgsearch.googleapis.com/v1/entities:search?key=YOUR_API_KEY"
+```example
+request
+to
+the
+google
+api
+with
+curl
+```
+curl -X GET \
+  -H "Authorization: Bearer YOUR_ACCESS_TOKEN" \
+  "https://www.googleapis.com/drive/v2/files?pageSize=10"
+```
