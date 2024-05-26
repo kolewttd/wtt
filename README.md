@@ -943,3 +943,34 @@ The output of `wtt` will be written to a file named `output.txt` in the current 
 **SEE ALSO**
 
 * wtt.py(1)
+The file wtt.py is a simple python API to the google.generativeai API.
+
+wtt - bash wrapper around wtt.py
+
+
+MANUAL
+
+SYNOPSIS [walk|wtt] the talk
+
+wtt appends junk/data to the output file
+
+Installation 
+git clone https://github.com/kolewttd/wtt
+
+Usage
+wtt
+wtt hello
+wtt hello world
+wtt any text
+wtt file
+wtt anyfile
+wtt any combination of text and files
+
+Notes:
+wtt is designed to be callable just from the 
+wtt directory. That is a feature, not a bug.
+
+The output is written to the output file in
+the current directory.
+
+wtt does not have any options
