@@ -1,0 +1,65 @@
+REQUIREMENT
+
+Install Linux and git.
+
+Before you start, make sure that you
+```sh
+rm -rf wtt
+```
+.
+
+Suppose that you have a mobile phone and 
+a personal computer or laptop. If I 
+use Termux app on the phone to ssh to 
+the computer.
+
+If you edit wtt in both places, then 
+you can lose track. Where did you make
+change?
+
+Doing rm -rf wtt regularly can simplify
+the process. I did not go elsewhere.
+
+Clone the repository with 
+```sh
+git clone https://github.com/kolewttd/wtt
+```
+This just downloads the files.
+
+Then do 
+```sh
+ls
+```
+and ask yourself, if you really want 
+to do this. Maybe you see, much more 
+important stuff. If so, stop.
+
+If not, hop in
+```sh
+cd wtt
+```
+.
+
+WALK THE TALK
+Congratulations. You are in a wtt
+directory. That directory is completely
+irrelevant. Relevant is only what will
+you put in. I am excited to think 
+what people will put in. But you can 
+assume that most of it will be junk.
+
+It does not matter what language is 
+used or how pretty it looks. It is junk.
+
+Work produces heat, 
+involvment in wtt produces junk.
+
+Once you are in, you are on your own.
+
+wtt.online
+
+
+
+
+
+
