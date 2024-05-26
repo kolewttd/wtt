@@ -907,3 +907,26 @@ curl -X GET \
   -H "Authorization: Bearer YOUR_ACCESS_TOKEN" \
   "https://www.googleapis.com/drive/v2/files?pageSize=10"
 ```
+```curl  
+curl -X POST -H "Content-Type: application/json" -d '{"instance_id": "1234567890123456789"}' https://dataproc-logging.googleapis.com/v1beta1/projects/{projectId}/locations/{region}/services/{serviceId}/sinks/{sinkId}  
+```
+**GET Request to the LexisNexis Legal & Business API:**
+
+```
+GET https://api.lexisnexis.com/v1/cases/search
+Authorization: Bearer {YOUR_ACCESS_TOKEN}
+LexisNexis-Context: {YOUR_CONTEXT}
+q={YOUR_QUERY}
+fields=[YOUR_FIELDS]
+```
+
+**Query Parameters:**
+
+* **q:** The search query string.
+* **fields:** A comma-separated list of fields to return in the response.
+
+**Headers:**
+
+* **Authorization:** Bearer token required for API access.
+* **LexisNexis-Context:** Contextual information about the API request.
+Note: If someone goes to the page and is not loged in. Then he should only see a login button.Nothing else.

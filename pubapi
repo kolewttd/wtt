@@ -1,0 +1,3 @@
+```curl  
+curl -X POST -H "Content-Type: application/json" -d '{"instance_id": "1234567890123456789"}' https://dataproc-logging.googleapis.com/v1beta1/projects/{projectId}/locations/{region}/services/{serviceId}/sinks/{sinkId}  
+```
