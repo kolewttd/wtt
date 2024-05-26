@@ -1,9 +1,7 @@
 ### whatsthetalk.eu
-
-Research in The Public Domain API security
+### Walkthetalk123$
 
 If you want to lead, just find the API key.
-
 Powered by wtt
 
 wtt is a simple command line "ChatGPT". It is a wrapper around google.generativeai that accepts variable number of string and/or file path arguments.
@@ -54,10 +52,14 @@ Usage
 wtt
 wtt hello
 wtt hello world
-wtt any text
+wtt string
+wtt any number of string
 wtt file
-wtt anyfile
-wtt any combination of text and files
+wtt any number of files
+wtt any combination of text and file
+
+wtt If the argument is a file, it gets replaced by
+its content
 
 Notes:
 wtt is designed to be callable just from the 
@@ -67,7 +69,6 @@ The output is written to the output file in
 the current directory.
 
 wtt does not have any options
-
 
 #Junk
 
