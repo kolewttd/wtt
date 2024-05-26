@@ -179,7 +179,7 @@ Axiom 1.
 
 We are created equal. No one can make a GET
 request with -rf options. Everyone can make a 
-DELETE request with -rf options set.
+DELETE request with -rf, which never fails.
 
 Axiom 2. 
 
