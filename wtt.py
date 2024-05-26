@@ -20,8 +20,12 @@ def arguments_to_text(*args) -> str:
 
 def wtt(*args) -> None:
         prompt = arguments_to_text(*args)
-
-
+       
+        api_key = "../.api-keys/gemini"
+        if os.path.isfile(api_key):
+                key = ""
+                with open("api_key", "r") as file:
+                            key = file.read()
 
         genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
         model = genai.GenerativeModel('gemini-pro')
