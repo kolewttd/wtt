@@ -905,3 +905,41 @@ fields=[YOUR_FIELDS]
 * **Authorization:** Bearer token required for API access.
 * **LexisNexis-Context:** Contextual information about the API request.
 Note: If someone goes to the page and is not loged in. Then he should only see a login button.Nothing else.
+**NAME**
+
+`wtt` - A bash wrapper around the wtt.py Python API to the Google Generative AI API
+
+**SYNOPSIS**
+
+`wtt [text [file...]]`
+`walk [text [file...]]`
+
+**DESCRIPTION**
+
+`wtt` and `walk` are bash wrappers around the `wtt.py` Python API to the Google Generative AI API. They allow you to easily generate text from a given prompt or a list of prompts.
+
+**USAGE**
+
+To use `wtt`, simply pass the text you want to generate as arguments. For example, to generate a short story about a cat, you would run the following command:
+
+```
+wtt Once upon a time, there was a cat...
+```
+
+You can also pass a list of files as arguments. Each file will be read and its contents will be used as a prompt for the API. For example, to generate a list of product descriptions from a list of product names, you would run the following command:
+
+```
+wtt products.txt
+```
+
+The output of `wtt` will be written to a file named `output.txt` in the current directory.
+
+**NOTES**
+
+* `wtt` is designed to be callable only from the `wtt` directory. This is a feature, not a bug.
+* The output is written to the output file in the current directory.
+* `wtt` does not have any options.
+
+**SEE ALSO**
+
+* wtt.py(1)

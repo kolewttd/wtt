@@ -3853,4 +3853,159 @@ git push https://<username>@<remote-repo-url> --file=<token-file>
 
 where `<token-file>` is the path to the file containing your Git token.
 
-Make sure to keep your Git token secret, as anyone with access to it will be able to push to your repositories.
+Make sure to keep your Git token secret, as anyone with access to it will be able to push to your repositories.Write a linux man page based on this: 
+The file wtt.py is a simple python API to the google.generativeai API.
+
+wtt - bash wrapper around wtt.py
+
+
+MANUAL
+
+SYNOPSIS [walk|wtt] the talk
+
+wtt appends junk/data to the output file
+
+Installation 
+git clone https://github.com/kolewttd/wtt
+
+Usage
+wtt
+wtt hello
+wtt hello world
+wtt any text
+wtt file
+wtt anyfile
+wtt any combination of text and files
+
+Notes:
+wtt is designed to be callable just from the 
+wtt directory. That is a feature, not a bug.
+
+The output is written to the output file in
+the current directory.
+
+wtt does not have any options
+man
+## NAME
+
+wtt - bash wrapper around wtt.py
+
+## SYNOPSIS
+
+**wtt** [**walk**|**wtt**] _the talk_
+
+**walk** appends junk/data to the output file
+
+## DESCRIPTION
+
+**wtt** is a bash wrapper around the `wtt.py` Python script, which provides a simple API to the Google Generative AI API. It allows you to easily generate text, code, and other creative content.
+
+**wtt** takes as input any combination of text and files, and appends the generated output to the `output` file in the current directory.
+
+## INSTALLATION
+
+To install **wtt**, clone the GitHub repository:
+
+```
+git clone https://github.com/kolewttd/wtt
+```
+
+## USAGE
+
+To use **wtt**, simply type the following command in a terminal window:
+
+```
+wtt
+```
+
+This will generate a random string of text. You can also provide specific text or files as input:
+
+```
+wtt hello
+wtt hello world
+wtt any text
+wtt file
+wtt anyfile
+wtt any combination of text and files
+```
+
+**wtt** does not have any options.
+
+## NOTES
+
+**wtt** is designed to be callable just from the `wtt` directory. This is a feature, not a bug.
+
+The output is written to the `output` file in the current directory.
+
+## MAN
+
+For more information on the `wtt.py` Python script, see the man page for `wtt.py`.Write a linux man page based on this: 
+The file wtt.py is a simple python API to the google.generativeai API.
+
+wtt - bash wrapper around wtt.py
+
+
+MANUAL
+
+SYNOPSIS [walk|wtt] the talk
+
+wtt appends junk/data to the output file
+
+Installation 
+git clone https://github.com/kolewttd/wtt
+
+Usage
+wtt
+wtt hello
+wtt hello world
+wtt any text
+wtt file
+wtt anyfile
+wtt any combination of text and files
+
+Notes:
+wtt is designed to be callable just from the 
+wtt directory. That is a feature, not a bug.
+
+The output is written to the output file in
+the current directory.
+
+wtt does not have any options
+**NAME**
+
+`wtt` - A bash wrapper around the wtt.py Python API to the Google Generative AI API
+
+**SYNOPSIS**
+
+`wtt [text [file...]]`
+`walk [text [file...]]`
+
+**DESCRIPTION**
+
+`wtt` and `walk` are bash wrappers around the `wtt.py` Python API to the Google Generative AI API. They allow you to easily generate text from a given prompt or a list of prompts.
+
+**USAGE**
+
+To use `wtt`, simply pass the text you want to generate as arguments. For example, to generate a short story about a cat, you would run the following command:
+
+```
+wtt Once upon a time, there was a cat...
+```
+
+You can also pass a list of files as arguments. Each file will be read and its contents will be used as a prompt for the API. For example, to generate a list of product descriptions from a list of product names, you would run the following command:
+
+```
+wtt products.txt
+```
+
+The output of `wtt` will be written to a file named `output.txt` in the current directory.
+
+**NOTES**
+
+* `wtt` is designed to be callable only from the `wtt` directory. This is a feature, not a bug.
+* The output is written to the output file in the current directory.
+* `wtt` does not have any options.
+
+**SEE ALSO**
+
+* wtt.py(1)

@@ -1,15 +1,11 @@
-wtt.py 
-wtt
+The file wtt.py is a simple python API to the google.generativeai API.
 
-wtt.py
-
-This is a simple python API to the 
-google.generativeai API.
+wtt - bash wrapper around wtt.py
 
 
 MANUAL
 
-walk the talk
+SYNOPSIS [walk|wtt] the talk
 
 wtt appends junk/data to the output file
 
@@ -32,8 +28,4 @@ wtt directory. That is a feature, not a bug.
 The output is written to the output file in
 the current directory.
 
-wtt does not have any options.
-
-
-
-
+wtt does not have any options
