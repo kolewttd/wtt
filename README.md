@@ -31,19 +31,42 @@ export PATH=$PATH:~/wtt
 wtt hello
 ```
 
-Note: wtt command must be called from the wtt directory.
-
-## Testing and Development (Experiments)
-
-step1 find the key
-
-if you have a key, then
+```sh
 change
 commit
 push
+```
+
+## Testing and Development (Experiments)
+
 
 done
+MANUAL
 
+SYNOPSIS [walk|wtt] the talk
+
+wtt appends junk/data to the output file
+
+Installation 
+git clone https://github.com/kolewttd/wtt
+
+Usage
+wtt
+wtt hello
+wtt hello world
+wtt any text
+wtt file
+wtt anyfile
+wtt any combination of text and files
+
+Notes:
+wtt is designed to be callable just from the 
+wtt directory. That is a feature, not a bug.
+
+The output is written to the output file in
+the current directory.
+
+wtt does not have any options
 
 
 #Junk
