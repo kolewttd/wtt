@@ -1,19 +1,18 @@
-**NAME**
+NAME
 
-`wtt` - A bash wrapper around the wtt.py Python API to the Google Generative AI API
+wtt - A bash wrapper around the wtt.py Python API to the Google Generative AI API
 
-**SYNOPSIS**
+SYNOPSIS
 
-`wtt [text [file...]]`
-`walk [text [file...]]`
+wtt [text [file...]]
 
-**DESCRIPTION**
+DESCRIPTION
 
-`wtt` and `walk` are bash wrappers around the `wtt.py` Python API to the Google Generative AI API. They allow you to easily generate text from a given prompt or a list of prompts.
+wtt is a bash wrapper around the `wtt.py` Python API to the Google Generative AI API. They allow you to easily generate text from a given prompt or a list of prompts.
 
 **USAGE**
 
-To use `wtt`, simply pass the text you want to generate as arguments. For example, to generate a short story about a cat, you would run the following command:
+To use wtt, simply pass the text you want to generate as arguments. For example, to generate a short story about a cat, you would run the following command:
 
 ```
 wtt Once upon a time, there was a cat...
@@ -25,14 +24,14 @@ You can also pass a list of files as arguments. Each file will be read and its c
 wtt products.txt
 ```
 
-The output of `wtt` will be written to a file named `output.txt` in the current directory.
+The output of `wtt` will be written to a file named `output` in the current directory.
 
-**NOTES**
+NOTES
 
-* `wtt` is designed to be callable only from the `wtt` directory. This is a feature, not a bug.
-* The output is written to the output file in the current directory.
-* `wtt` does not have any options.
+wtt is designed to be callable only from the wtt directory. This is a feature, not a bug.
+The output is written to the output file in the current directory.
+wtt does not have any options.
 
-**SEE ALSO**
+SEE ALSO
 
-* wtt.py(1)
+wtt.py(1)
