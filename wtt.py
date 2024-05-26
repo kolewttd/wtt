@@ -7,26 +7,19 @@ def arguments_to_text(*args) -> str:
         text = ""
 
         for arg in args:
-            if isinstance(arg, str):
-                    if os.path.isfile(arg):
-                            with open(arg, 'r') as file:
-                                    text += file.read()
-                    else:
-                            text += arg + '\n'
-            else:
-                    raise TypeError("Arguments must be file paths or strings.")
+                if isinstance(arg, str):
+                        if os.path.isfile(arg):
+                                with open(arg, 'r') as file:
+                                        text += file.read()
+                        else:
+                                text += arg + '\n'
+                else:
+                        raise TypeError("Arguments must be file paths or strings.")
 
         return text
 
 def wtt(*args) -> None:
         prompt = arguments_to_text(*args)
-       
-        #api_key = "../.api-keys/gemini"
-        #if os.path.isfile(api_key):
-        #        key = ""
-        #        with open("api_key", "r") as file:
-        #                    key = file.read()
-
         genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
         model = genai.GenerativeModel('gemini-pro')
         response = model.generate_content(prompt)

@@ -1,0 +1,10 @@
+```sh
+# Look at the path variable $PATH
+echo $PATH
+
+# Look at the directory structure
+ls
+
+# Export path so that wtt is callable
+export PATH=$PATH:/path/to/wtt
+```
