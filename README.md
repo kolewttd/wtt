@@ -1,35 +1,10 @@
 ### whatsthetalk.eu
 
-Research in API security
+Research in The Public Domain API security
 
 If you want to lead, just find the API key.
 
 Powered by wtt
-
-Is GitHub key mine? What are the Terms of Service? I do not know, nor do I care.
-I can live without github. I accidentally stumbled upon github tokens. I prefered 
-plain passwords and still do today. If you think that this is not a good way to start a report,
-you just care about small part of users and ignore a vast number that would love and enjoy your service.
-
-During my research, I found out that I am not allowed to share my tokens or API keys with others.
-
-I consider that to be a great logical bug. One that beginners would make. Do not care, we 
-are all beginners until the end.
-
-I know that there is no way you can apologise to Julian Assange or many others for not doing anything, but
-you have in your name, the key to unlock humanity and free them from the matrix. Git.
-
-There is only one problem with git. Linus and keys.
-
-By dropping Linus and keys, you will be able to change humanity. But you have to drop them both.
-
-Let me explain. Everyone should be able to commit and push to the Public Domain APIs. The APIs in the 
-Public Domain must not violate common sense. If I you want to grep some text from some legislation, 
-you should be able to do so. If not, I have little hope for the future. The 
-information on the Public Domain API servers must be accessible. There is no sense in using encryption 
-for public information. Encrypting the public domain communications just makes The Public Domain API less usable, harder to use or not usable at all.
-
-# Define The Public Domain API
 
 wtt is a simple command line "ChatGPT". It is a wrapper around google.generativeai that accepts variable number of string and/or file path arguments.
 
