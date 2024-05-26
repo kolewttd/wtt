@@ -29,3 +29,5 @@ To get started with the WTT project, clone the repository:
 git clone https://github.com/kolewttd/wtt.git
 
 
+This README provides an overview of the repository's focus, key components, and how to get started.
+
