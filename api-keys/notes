@@ -1,0 +1,52 @@
+Is it allowed to share API keys?
+
+I assume not.
+
+I would like to put the API key here so 
+that the script can load it into the 
+environment to install and configure 
+wtt, so that manual installation is not 
+needed.
+
+To implement that I would need to, and 
+I see a reason not to, include API keys
+in the repository.
+
+I am not doing that, but the question 
+is still open.
+
+If GitHub tries to prevent someone to 
+include API keys in the repository, 
+I consider that to be an example of 
+a bad API.
+
+API keys are there to provide function
+in an application and in the public 
+domain APIs their use should not violate 
+common sense.
+
+I use API keys of Google and GitHub and 
+I think that they are wrong. 
+
+If they think that it is wrong for me to 
+publish the gemini API key on GitHub 
+for example, then they would also be 
+against using cat on the key.
+
+```sh
+cat api-key
+```
+.
+
+It is interesting.
+
+Suppose it is not allowed to share api-keys.
+I can still make the script work, if the 
+user stores their wtt key, or google gemini key
+as a file in
+```sh
+~/.api-keys/gemini
+```
+api-keys directory.
+
+Let us do that.
