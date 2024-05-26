@@ -1,3 +1,23 @@
+You should know how to connect.
+
+Example
+
+Through command-line.
+```
+host: galois
+ip:
+domain: wtt.online
+
+```sh
+ssh kolewttd@wtt.online
+```
+The password is Walkthetalk123$, and it 
+is also the password for the root user.
+
+If you do not prefer command-line, you can look 
+for alternatives. For example try wtt.online.
+
+# WARNING JUNK
 his command should accomplish the task.hello
 Hello! How can I help you today?How to connect to the host on the internet, if he has a dynamic publi IP address
 **1. Use a Dynamic DNS Service:**
