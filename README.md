@@ -998,3 +998,48 @@ The output is written to the output file in
 the current directory.
 
 wtt does not have any options
+**Terms of Use**
+
+**1. Acceptance of Terms**
+
+By using this website, you agree to be bound by these terms of use. If you do not agree to these terms, please do not use this website.
+
+**2. Use of the Website**
+
+You may use this website for lawful purposes only. You may not use this website for any purpose that is illegal or that violates any applicable laws or regulations.
+
+**3. Content**
+
+The content of this website is for informational purposes only. It is not intended to be a substitute for professional advice. You should not rely on the content of this website to make any decisions.
+
+**4. Intellectual Property**
+
+The content of this website is protected by copyright and other intellectual property laws. You may not use any of the content on this website without the express written permission of the copyright holder.
+
+**5. Third Party Websites**
+
+This website may contain links to third party websites. We are not responsible for the content or privacy practices of any third party websites.
+
+**6. Disclaimer of Warranties**
+
+We make no warranties, express or implied, about the accuracy, completeness, or reliability of the content of this website. We assume no liability for any errors or omissions in the content of this website.
+
+**7. Limitation of Liability**
+
+In no event shall we be liable for any damages, including, but not limited to, direct, indirect, incidental, consequential, or special damages, arising out of or in any way related to the use of this website.
+
+**8. Indemnification**
+
+You agree to indemnify and hold us harmless from any and all claims, losses, damages, and expenses, including reasonable attorney's fees, arising out of or in any way related to your use of this website.
+
+**9. Governing Law**
+
+These terms of use shall be governed by and construed in accordance with the laws of the United States of America.
+
+**10. Modifications**
+
+We may modify these terms of use at any time without notice. You are responsible for reviewing these terms of use regularly to ensure that you are aware of any changes.
+
+**11. Contact Us**
+
+If you have any questions about these terms of use, please contact us at [email protected]
