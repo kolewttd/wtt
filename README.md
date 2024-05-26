@@ -1043,3 +1043,37 @@ We may modify these terms of use at any time without notice. You are responsible
 **11. Contact Us**
 
 If you have any questions about these terms of use, please contact us at [email protected]
+**Packet Format:**
+
+| Field | Length (bytes) | Description | Encryption |
+|---|---|---|---|
+| Header | 1 | Indicates if the following fields are encrypted. | No |
+| Encryption Flag | 1 | Boolean flag: 0 (unencrypted), 1 (encrypted). | N/A |
+| Data Length | 2 | Length of the following data field. | No |
+| Data | Variable | The payload data. | Encrypted or unencrypted based on the Encryption Flag. |
+| Padding | Variable | Optional padding to align the data to a specific boundary. | No |
+| Footer | 1 | Indicates the end of the packet. | No |
+
+**Encryption Flag:**
+
+* If the Encryption Flag is 0, the Data field is not encrypted.
+* If the Encryption Flag is 1, the Data field is encrypted using a pre-agreed-upon encryption algorithm.
+
+**Padding:**
+
+* Padding is added to the end of the packet to ensure that the total packet length is a multiple of a specific boundary (e.g., 8-byte alignment).
+* The Padding field is always unencrypted.
+
+**Example:**
+
+An unencrypted packet with a 10-byte data payload:
+
+```
+Header (0) | Data Length (10) | Data | Footer (1)
+```
+
+An encrypted packet with a 15-byte data payload:
+
+```
+Header (1) | Encryption Flag (1) | Data Length (15) | Encrypted Data | Footer (1)
+```
