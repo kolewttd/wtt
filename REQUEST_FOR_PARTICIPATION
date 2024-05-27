@@ -1,6 +1,6 @@
 RFP 0
 
-This paper deals with internet security.
+Internet security.
 
 I do not believe that we have any problems 
 with computing power, memory, hardware or 
@@ -16,10 +16,6 @@ not associated with any company.
 This paper starts as a github repository wtt
 from the user kolewttd.
 
-That is my user name, but it is designed to 
-be public. For the purposes of discussion, 
-I designed it that way.
-
 Is it possible to have a single root repository, 
 that would contain all other repositories in the 
 Public Domain.
@@ -27,8 +23,7 @@ Public Domain.
 Do internet standards and other relevant protocol make 
 distinction between public and private domains?
 
-If not, would that distinction be a good one? I do not 
-know. Let us try. 
+If not, would that distinction be a good one? 
 
 Steps:
 1. rm -rf wtt
@@ -44,12 +39,8 @@ Steps:
                         change
 4. think
 5. go away
-123. thin
-2343423 th
-32434232 t
-23424234234 
-4. think
-Go to Step 1
+6. think
+7. Go to Step 1
 
 Do not forget to commit. Be careful what you commit. 
 Junk is everywhere. Be careful what you think.
@@ -88,14 +79,7 @@ Junk is all around us. In useless apps and APIs. They are
 nevertheless useful, if you want to solve all these AI I am 
 not a robot challenges which try to make people robots.
 
-When I see such a challenge, I immediately close the app. 
-
 I am against the junk on the Public Domain APIs.  
-
-The situation is complicated. I want you to produce junk and 
-I do not want to see junk?
-
-Let us call this the junk paradox. 
 
 This junk paradox has a simple natural solution.
 
@@ -178,12 +162,9 @@ has access.
 Axiom 1.
 
 We are created equal. No one can make a GET
-request with -rf options. Everyone can make a 
-DELETE request with -rf, which never fails.
+request with -rf options. Everyone can
+DELETE with -rf, which never fails.
 
 Axiom 2. 
 
 IGNORE never fails
-
-Is it possible to implement it? What does that even mean?
-What will we learn?

@@ -75,7 +75,7 @@ wtt does not have any options
 Create the website for such a program.
 
 The rest of this file is junk.
-
+The whole of this repository is junk!
 **English Idiom:** Walk the talk
 
 **Meaning:** To act in accordance with one's words or beliefs; to put one's money where one's mouth is.
