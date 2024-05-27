@@ -1,0 +1,28 @@
+**Chain INPUT:**
+
+* Accepts all packets (47,396 packets, 93MB)
+
+**Chain FORWARD:**
+
+* Drops all packets (0 packets, 0 bytes)
+* Allows related/established connections through some interfaces
+
+**Chain OUTPUT:**
+
+* Accepts all packets (38,864 packets, 3.169MB)
+
+**Chain DOCKER:**
+
+* Handles Docker traffic
+
+**Chain DOCKER-ISOLATION-STAGE-1:**
+
+* Isolates Docker traffic from other networks
+
+**Chain DOCKER-ISOLATION-STAGE-2:**
+
+* Isolates Docker traffic from specific interfaces
+
+**Chain DOCKER-USER:**
+
+* Handles Docker user traffic

@@ -1,0 +1,63 @@
+Chain INPUT (policy ACCEPT 47396 packets, 93M bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+
+This chain shows that there were 47,396 packets and 93MB of data that came in through the input chain. The policy for this chain is to accept all packets.
+
+Chain FORWARD (policy DROP 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DOCKER-USER  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+    0     0 DOCKER-ISOLATION-STAGE-1  0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     0    --  *      docker0  0.0.0.0/0            0.0.0.0/0            ctstate RELATED,ESTABLISHED
+    0     0 DOCKER     0    --  *      docker0  0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     0    --  docker0 !docker0  0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     0    --  docker0 docker0  0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     0    --  *      br-aeb7087c922f  0.0.0.0/0            0.0.0.0/0            ctstate RELATED,ESTABLISHED
+    0     0 DOCKER     0    --  *      br-aeb7087c922f  0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     0    --  br-aeb7087c922f !br-aeb7087c922f  0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     0    --  br-aeb7087c922f br-aeb7087c922f  0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     0    --  *      br-96edba9ecdc0  0.0.0.0/0            0.0.0.0/0            ctstate RELATED,ESTABLISHED
+    0     0 DOCKER     0    --  *      br-96edba9ecdc0  0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     0    --  br-96edba9ecdc0 !br-96edba9ecdc0  0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     0    --  br-96edba9ecdc0 br-96edba9ecdc0  0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     0    --  *      br-6fb4820b755e  0.0.0.0/0            0.0.0.0/0            ctstate RELATED,ESTABLISHED
+    0     0 DOCKER     0    --  *      br-6fb4820b755e  0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     0    --  br-6fb4820b755e !br-6fb4820b755e  0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     0    --  br-6fb4820b755e br-6fb4820b755e  0.0.0.0/0            0.0.0.0/0           
+
+This chain shows that there were 0 packets and 0 bytes that were forwarded through the forward chain. The policy for this chain is to drop all packets.
+
+Chain OUTPUT (policy ACCEPT 38864 packets, 3169K bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+
+This chain shows that there were 38,864 packets and 3.169MB of data that went out through the output chain. The policy for this chain is to accept all packets.
+
+Chain DOCKER (4 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+This chain is for Docker traffic. There are 4 references to this chain.
+
+Chain DOCKER-ISOLATION-STAGE-1 (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DOCKER-ISOLATION-STAGE-2  0    --  docker0 !docker0  0.0.0.0/0            0.0.0.0/0           
+    0     0 DOCKER-ISOLATION-STAGE-2  0    --  br-aeb7087c922f !br-aeb7087c922f  0.0.0.0/0            0.0.0.0/0           
+    0     0 DOCKER-ISOLATION-STAGE-2  0    --  br-96edba9ecdc0 !br-96edba9ecdc0  0.0.0.0/0            0.0.0.0/0           
+    0     0 DOCKER-ISOLATION-STAGE-2  0    --  br-6fb4820b755e !br-6fb4820b755e  0.0.0.0/0            0.0.0.0/0           
+    0     0 RETURN     0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+This chain is for isolating Docker traffic. There is 1 reference to this chain.
+
+Chain DOCKER-ISOLATION-STAGE-2 (4 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DROP       0    --  *      docker0  0.0.0.0/0            0.0.0.0/0           
+    0     0 DROP       0    --  *      br-aeb7087c922f  0.0.0.0/0            0.0.0.0/0           
+    0     0 DROP       0    --  *      br-96edba9ecdc0  0.0.0.0/0            0.0.0.0/0           
+    0     0 DROP       0    --  *      br-6fb4820b755e  0.0.0.0/0            0.0.0.0/0           
+    0     0 RETURN     0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+This chain is for isolating Docker traffic. There are 4 references to this chain.
+
+Chain DOCKER-USER (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 RETURN     0    --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+This chain is for Docker user traffic. There is 1 reference to this chain.
