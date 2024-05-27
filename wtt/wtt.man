@@ -12,20 +12,19 @@ wtt appends junk/data to the output file
 Installation 
 git clone https://github.com/kolewttd/wtt
 
+cd wtt/wtt
+
+
 Usage
 wtt
 wtt hello
 wtt hello world
-wtt any text
+wtt any number of strings
 wtt file
-wtt anyfile
-wtt any combination of text and files
+wtt any number of files
+wtt any combination of string and file arguments
 
 Notes:
-wtt is designed to be callable just from the 
-wtt directory. That is a feature, not a bug.
-
-The output is written to the output file in
-the current directory.
-
 wtt does not have any options
+You can use command substitution syntax $(command)
+
