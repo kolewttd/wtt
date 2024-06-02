@@ -1,4 +1,0 @@
-curl --location 'https://gluon.proton.ai/distributorX/product/recommendations/cart_lite?customer_id=BobSmith123&count=15&user_id=distributorX_website' \
---header 'X-User-Id: distributorX_website' \
---header 'X-Company: distributorX' \
---header 'X-Api-Key: $api-key-goes-here$'
