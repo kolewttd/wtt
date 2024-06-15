@@ -26,11 +26,6 @@ wtt products.txt
 
 The output of `wtt` will be written to a file named `output` in the current directory.
 
-NOTES
-
-wtt is designed to be callable only from the wtt directory. This is a feature, not a bug.
-The output is written to the output file in the current directory.
-wtt does not have any options.
 
 SEE ALSO
 
