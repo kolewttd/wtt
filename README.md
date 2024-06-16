@@ -9,7 +9,7 @@ google API, which returns a textual response.
 Both prompt and textual response get appended to a file.
 
 # Installation and Usage 
-1. Download the file or clone the repository 
+1. Clone the repository 
 ```sh
 git clone https://github.com/kolewttd/wtt
 ```
