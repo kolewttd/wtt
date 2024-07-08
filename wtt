@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [ ! -f wtt.py ]; then
+  echo "wtt.py not found."
+  exit 1
+fi
+
+if [ -z "$GOOGLE_API_KEY" ]; then
+  echo "GOOGLE_API_KEY environment variable is not set. Please set it to your API key."
+  exit 1
+fi
+
+export PATH=$PATH:~/wtt/wtt
+
+python wtt.py "$@"
