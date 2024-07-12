@@ -10,6 +10,4 @@ if [ -z "$GOOGLE_API_KEY" ]; then
   exit 1
 fi
 
-export PATH=$PATH:~/wtt/wtt
-
 python wtt.py "$@"
