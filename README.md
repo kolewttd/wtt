@@ -15,11 +15,12 @@ git clone https://github.com/kolewttd/wtt
 ```
 2. Install the API and export the API key
 ```sh
+cd wtt
 python -m venv venv
 source venv/bin/activate
 pip install google-generativeai
 export GOOGLE_API_KEY="your-api-key-here"
-export PATH=$PATH:~/wtt
+export PATH=$PATH:.
 ```
 3. Run
 ```bash
